@@ -1,13 +1,15 @@
 
 @import 'https://use.fontawesome.com/releases/v6.1.2/css/all.css';
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
 
 body {
     background-color: white;
 }
 main{
-    font-family: 'Merienda', cursive;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     margin-left: 300px;
+    font-size: 20px;
 }
 
 label {
@@ -313,17 +315,15 @@ section {
     border-radius: 16%;
 }
 
-
-
 .resume .resume-title {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     margin: 20px 0;
     color: #446344;
 }
 
 .resume .resume-item {
-    font-size: 14px;
+    font-size: 20px;
     padding: 0 0 20px 20px;
     border-left: 2px solid #74ab74;
     position: relative;
@@ -584,7 +584,7 @@ footer p{
         visibility: visible;
     }
     .row{
-        flex-direction: column;
+        flex-direction: row;
     }
     
     #hero {
@@ -593,7 +593,9 @@ footer p{
     .about{
         height: auto;
     }
-
+    .about .col-lg-6{
+        width: 50%;
+    }
     main section{
         padding: 60px 0 0 0;
     }
